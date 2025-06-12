@@ -46,7 +46,7 @@ export default function About() {
             variants={blurVariant}
             className={`${geist.className} text-4xl sm:text-5xl md:text-7xl font-extrabold tracking-tight`}
           >
-            Web Developer
+            Fullstack Developer
           </motion.h1>
           <motion.p
             variants={blurVariant}
