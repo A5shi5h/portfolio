@@ -91,7 +91,7 @@ export default function Contact() {
         className='flex justify-center items-center gap-8 mt-20'
       >
         <a 
-          href="https://github.com/yourusername" 
+          href="https://github.com/A5shi5h" 
           target="_blank" 
           rel="noopener noreferrer"
           className="text-slate-400 hover:text-white transition-colors"
@@ -101,7 +101,7 @@ export default function Contact() {
           </svg>
         </a>
         <a 
-          href="https://linkedin.com/in/yourusername" 
+          href="https://www.linkedin.com/in/ashish-lamichaney-98432636b" 
           target="_blank" 
           rel="noopener noreferrer"
           className="text-slate-400 hover:text-blue-600 transition-colors"
@@ -111,7 +111,7 @@ export default function Contact() {
           </svg>
         </a>
         <a 
-          href="https://instagram.com/yourusername" 
+          href="https://instagram.com/hey_its_ashish_" 
           target="_blank" 
           rel="noopener noreferrer"
           className="text-slate-400 hover:text-pink-500 transition-colors"
