@@ -101,7 +101,7 @@ export default function Contact() {
           </svg>
         </a>
         <a 
-          href="https://www.linkedin.com/in/ashish-lamichaney-98432636b" 
+          href="https://www.linkedin.com/in/ashishlamichaney" 
           target="_blank" 
           rel="noopener noreferrer"
           className="text-slate-400 hover:text-blue-600 transition-colors"
