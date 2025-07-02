@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import localFont from 'next/font/local';
+import Image from 'next/image';
 
 const geist = localFont({
   src: '../../public/fonts/Geist-Thin.otf',
@@ -10,10 +11,10 @@ const geist = localFont({
 const projects = [
   {
     title: 'Project 1',
-    description: 'A full-stack web application built with Next.js and MongoDB.',
-    tech: ['Next.js', 'MongoDB', 'Tailwind CSS'],
-    image: '/project1.jpg',
-    link: '#',
+    description: 'A clone of the popular website',
+    tech: ['HTML', 'CSS', 'JavaScript'],
+    image: '/images/project1.png',
+    link: 'https://a5shi5h.github.io/significo-clone/',
   },
   {
     title: 'Project 2',
@@ -59,7 +60,11 @@ export default function Projects() {
               className="bg-transparent rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow"
             >
               <div className="h-48 bg-gray-200 dark:bg-gray-700">
-                {/* Add project image here */}
+                <Image 
+                  src={project.image} 
+                  alt={project.title} 
+                  width={500} 
+                  height={500} />
               </div>
               <div className="p-6">
                 <h3 className={`${geist.className} text-2xl font-semibold mb-2 text-white`}>{project.title}</h3>
