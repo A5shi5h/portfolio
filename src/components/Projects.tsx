@@ -18,10 +18,10 @@ const projects = [
   },
   {
     title: 'Project 2',
-    description: 'Real-time chat application with WebSocket integration.',
-    tech: ['React', 'Node.js', 'Socket.io'],
-    image: '/project2.jpg',
-    link: '#',
+    description: 'A responsive modern website for a cafe',
+    tech: ['NextJS', 'Gsap', 'Lenis'],
+    image: '/images/project2.png',
+    link: 'https://aro-cafe.vercel.app/',
   },
   {
     title: 'Project 3',
